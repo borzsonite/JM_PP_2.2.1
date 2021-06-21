@@ -20,7 +20,7 @@ public class MainApp {
 //      userService.add(new User("User2", "Lastname2", "user2@mail.ru", new Car("Toyota", 5)));
 //      userService.add(new User("User3", "Lastname3", "user3@mail.ru", new Car("Honda", 2)));
 //      userService.add(new User("User4", "Lastname4", "user4@mail.ru", new Car("Honda", 1)));
-
+//
 //      List<User> users = userService.listUsers();
 //      for (User user : users) {
 //         System.out.println("Id = "+user.getId());
@@ -30,9 +30,9 @@ public class MainApp {
 //         System.out.println("Car = " + user.getCar());
 //         System.out.println();
 //      }
-//      System.out.println("---------------Users by car-----------------");
-//
-      List<User> usersByCar = userService.getUserByCar("User1", 2);
+      System.out.println("---------------Users by car-----------------");
+
+      List<User> usersByCar = userService.getUserByCar("Honda", 1);
       System.out.println(usersByCar);
 
 
